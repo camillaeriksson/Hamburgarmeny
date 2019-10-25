@@ -1,0 +1,22 @@
+html {
+    margin: 0;
+}
+
+body {
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(73, 84, 146);
+    height: 5rem;
+    width: 100%;
+}
+
+main {
+    margin-top: 5rem;
+    position: absolute;
+    padding: 1rem;
+}
