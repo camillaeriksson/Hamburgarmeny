@@ -10,20 +10,30 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     position: fixed;
     background-color: rgb(73, 84, 146);
     height: 5rem;
     width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
 }
-
-header h2 {
-    padding-left: 1rem;
-}
-
 
 main {
     margin-top: 5rem;
     position: absolute;
     padding: 1rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+}
+
+.header-bottom {
+    flex: 1;
 }
