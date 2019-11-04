@@ -8,3 +8,14 @@ function openBar() {
         navbar.style.height = "5rem"
     }
 }
+
+
+function biggerFont() {
+    const main = document.getElementById("maincontent");
+    
+    if (main.style.fontSize === "x-large") {
+        main.style.fontSize = null;
+    } else {
+        main.style.fontSize = "x-large";
+    }
+}
